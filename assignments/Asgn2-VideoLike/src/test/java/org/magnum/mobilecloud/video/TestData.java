@@ -23,7 +23,7 @@ public class TestData {
 	
 	/**
 	 * Construct and return a Video object with a
-	 * rnadom name, url, and duration.
+	 * random name, url, and duration.
 	 * 
 	 * @return
 	 */

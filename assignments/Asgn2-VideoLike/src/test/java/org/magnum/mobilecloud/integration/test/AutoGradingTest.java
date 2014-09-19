@@ -57,7 +57,7 @@ public class AutoGradingTest {
 			.setClient(new ApacheClient(UnsafeHttpsClient.createUnsafeClient()))
 			.setEndpoint(TEST_URL)
 			.setLoginEndpoint(TEST_URL + VideoSvcApi.TOKEN_PATH)
-			// .setLogLevel(LogLevel.FULL)
+			.setLogLevel(LogLevel.FULL)
 			.setUsername(USERNAME1).setPassword(PASSWORD).setClientId(CLIENT_ID)
 			.build().create(VideoSvcApi.class);
 
@@ -65,7 +65,7 @@ public class AutoGradingTest {
 			.setClient(new ApacheClient(UnsafeHttpsClient.createUnsafeClient()))
 			.setEndpoint(TEST_URL)
 			.setLoginEndpoint(TEST_URL + VideoSvcApi.TOKEN_PATH)
-			// .setLogLevel(LogLevel.FULL)
+			.setLogLevel(LogLevel.FULL)
 			.setUsername(USERNAME2).setPassword(PASSWORD).setClientId(CLIENT_ID)
 			.build().create(VideoSvcApi.class);
 

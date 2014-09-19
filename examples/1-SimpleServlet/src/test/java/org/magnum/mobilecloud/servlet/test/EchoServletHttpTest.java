@@ -27,7 +27,7 @@ public class EchoServletHttpTest {
 	
 	/**
 	 * This test sends a GET request with a msg parameter and
-	 * ensures that the servlet replies with "Echo:" + msg. 
+	 * ensures that the servlet replies with "Echo: " + msg. 
 	 * 
 	 * @throws Exception
 	 */
@@ -47,7 +47,7 @@ public class EchoServletHttpTest {
 		
 		// Ensure that the body of the HTTP response met our
 		// expectations (e.g., it was "Echo:" + msg)
-		assertEquals("Echo:"+msg, content);
+		assertEquals("Echo: "+msg, content);
 	}
 
 }

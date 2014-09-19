@@ -13,7 +13,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 // so that requests can be routed to our Controllers)
 @EnableWebMvc
 // Tell Spring to go and scan our controller package (and all sub packages) to
-// find any Controllers or other components that are part of our applciation.
+// find any Controllers or other components that are part of our application.
 // Any class in this package that is annotated with @Controller is going to be
 // automatically discovered and connected to the DispatcherServlet.
 @ComponentScan
